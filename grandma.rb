@@ -13,11 +13,12 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 speak_to_grandma(phrase)
+phrase = "I LOVE YOU GRANDMA"
   
 if speak_to_grandma(phrase) == "I LOVE YOU GRANDMA".upcase
   puts "I LOVE YOU TOO PUMPKIN"
   
-elsif speak_to_grandma == phrase.upcase
+elsif speak_to_grandma == #{phrase}.upcase
   puts "NO, NOT SINCE 1938!"
 
 else phrase.downcase
