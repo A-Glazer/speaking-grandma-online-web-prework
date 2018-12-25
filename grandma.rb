@@ -14,10 +14,11 @@
 
 speak_to_grandma = "I LOVE YOU GRANDMA"
 
-if speak_to_grandma == "I LOVE YOU GRANDMA"
+def speak_to_grandma = phrase
+if speak_to_grandma == "I LOVE YOU GRANDMA".upcase
   puts "I LOVE YOU TOO PUMPKIN"
   
-elsif #{speak_to_grandma}.upcase
+elsif speak_to_grandma == speak_to_grandma.upcase
   puts "NO, NOT SINCE 1938!"
 
 else #{speak_to_grandma}.downcase
