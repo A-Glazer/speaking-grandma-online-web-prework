@@ -26,4 +26,3 @@ else speak_to_grandma.downcase
   puts "HUH?! SPEAK UP SONNY!"
   
 end
-end
