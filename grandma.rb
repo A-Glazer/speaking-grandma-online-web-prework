@@ -27,12 +27,12 @@
 
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase
+    puts "NO, NOT SINCE 1938!"
+    
+    elsif phrase == "I LOVE YOU GRANDMA"
+    puts "I LOVE YOU TOO PUMPKIN"
+    
+  else phrase == phrase.downcase
+    puts "HUH?! SPEAK UP SONNY!"
 
-
-if speak_to_grandma.downcase == speak_to_grandma.downcase
-  puts "HUH?! SPEAK UP SONNY"
-  
-else 
-  puts "testing"
-  
 end
