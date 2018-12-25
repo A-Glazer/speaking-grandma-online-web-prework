@@ -14,8 +14,8 @@
 
 speak_to_grandma = "I LOVE YOU GRANDMA"
 
-def speak_to_grandma = phrase
-if phrase == "I LOVE YOU GRANDMA".upcase
+
+if speak_to_grandma == "I LOVE YOU GRANDMA".upcase
   puts "I LOVE YOU TOO PUMPKIN"
   
 elsif speak_to_grandma == speak_to_grandma.upcase
