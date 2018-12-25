@@ -13,8 +13,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-speak_to_grandma = speak_to_granda(phrase)
-  speak_to_grandma = phrase
   
 if speak_to_grandma == "I LOVE YOU GRANDMA".upcase
   puts "I LOVE YOU TOO PUMPKIN"
