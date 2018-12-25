@@ -25,7 +25,8 @@
   
 #end
 
-speak_to_grandma = "I LOVE YOU GRANDMA"
+def speak_to_grandma(phrase)
+  if phrase == phrase.upcase
 
 
 if speak_to_grandma.downcase == speak_to_grandma.downcase
