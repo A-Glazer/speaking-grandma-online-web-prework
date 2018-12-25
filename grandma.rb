@@ -28,7 +28,7 @@
 speak_to_grandma = "I LOVE YOU GRANDMA"
 
 
-if speak_to_grandma.upcase == speak_to_grandma.upcase
+if speak_to_grandma.downcase == speak_to_grandma.downcase
   puts "HUH?! SPEAK UP SONNY"
   
 else 
